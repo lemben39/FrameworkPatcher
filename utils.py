@@ -86,6 +86,7 @@ def modify_file(file_path, flag):
             "verifySignatures": re.compile(r'\.method.*verifySignatures\(.*\)Z'),
             "matchSignaturesCompat": re.compile(r'\.method.*matchSignaturesCompat\(.*\)Z'),
             #..
+            # "compareSignatures": re.compile(r'\.method.*compareSignatures\(.*\)I'),
             "matchSignatureInSystem": re.compile(r'\.method.*matchSignatureInSystem\(.*\)Z'),
             "matchSignaturesRecover": re.compile(r'\.method.*matchSignaturesRecover\(.*\)Z'),
             "canSkipForcedPackageVerification": re.compile(r'\.method.*canSkipForcedPackageVerification\(.*\)Z'),
